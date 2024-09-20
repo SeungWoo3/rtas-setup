@@ -30,12 +30,12 @@ cp ~/rt-max-setting/run.sh ~/rt-max
 cd ~/rt-max
 chmod +x run.sh
 
-# 검증 코드 실행
-./run.sh
+# # 검증 코드 실행
+# ./run.sh
 
-# 검증 코드 csv로 그래프 그리기
-mkdir -p ~/graph
-cp ~/rt-max-setting/graph.py ~/graph
-cp ~/rt-max/measure/sequential/densenet201/*.csv ~/graph
-cd ~/graph
-python3 graph.py sequential_cpu_03core.csv sequential_gpu_03core.csv
+# # 검증 코드 csv로 그래프 그리기
+# mkdir -p ~/graph
+# cp ~/rt-max-setting/graph.py ~/graph
+# cp ~/rt-max/measure/sequential/densenet201/*.csv ~/graph
+# cd ~/graph
+# python3 graph.py sequential_cpu_03core.csv sequential_gpu_03core.csv
