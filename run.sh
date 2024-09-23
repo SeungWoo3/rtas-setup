@@ -1,6 +1,4 @@
 cd ~/rt-max
-./run.sh
-
 ./darknet detector sequential cfg/imagenet1k.data \
                    ./cfg/densenet201.cfg \
                    weights/densenet201.weights \
