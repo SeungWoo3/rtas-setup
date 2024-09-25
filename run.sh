@@ -1,3 +1,7 @@
+cd ~/graph
+touch log
+date +"start at %Y-%m-%d %H:%M:%S" >> log
+
 mkdir -p ~/graph
 cp ~/rt-max-setting/graph.py ~/graph
 cp ~/rt-max-setting/hist.py ~/graph
@@ -20,5 +24,5 @@ cd ~/graph
 python3 graph.py sequential_cpu_03core.csv sequential_gpu_03core.csv
 python3 hist.py sequential_cpu_03core.csv sequential_gpu_03core.csv 50
 
-touch done
-date +"%Y-%m-%d %H:%M:%S" >> done
+cd ~/graph
+date +"end at %Y-%m-%d %H:%M:%S" >> log
