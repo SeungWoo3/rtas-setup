@@ -1,5 +1,5 @@
 # GPU 파워모드 설정
-#sudo sh -c 'cat power.txt >> /etc/nvpmodel.conf'
+sudo sh -c 'cat power.txt >> /etc/nvpmodel.conf'
 
 # gfortran
 sudo apt-get install gfortran
