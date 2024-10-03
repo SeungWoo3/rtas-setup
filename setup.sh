@@ -1,3 +1,4 @@
+sudo apt-get update
 # GPU 파워모드 설정
 sudo sh -c 'cat power.txt >> /etc/nvpmodel.conf'
 
