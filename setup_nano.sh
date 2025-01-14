@@ -3,7 +3,7 @@ sudo apt-get update
 # sudo sh -c 'cat power_nano.txt >> /etc/nvpmodel.conf'
 
 # gfortran
-sudo apt-get install gfortran
+#sudo apt-get install gfortran
 
 # BLIS 빌드
 cd ~
